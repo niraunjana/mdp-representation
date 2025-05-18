@@ -11,18 +11,23 @@ The elevator control system should make decisions about which action to take bas
 ## State Space: 
 
 state 0: Ground Floor
+
 state 1: First Floor
+
 state 2: Second Floor (reward is achieved in top floor(2nd floor))
 
 ## Sample State:
 
 state: Ground Floor -> represented numerically as 0
+
 state: First Floor -> represented numerically as 1
+
 state: second Floor -> represented numerically as 2
 
 ## Action Space:
 
 Action 0: Moves Down
+
 Action 1: Moves Up
 
 ## Sample Action:
@@ -32,6 +37,7 @@ Action 1: Moves Up
 ## Reward Function:
 
 Reward: +10.0 => If the Elevator Reaches the Top Floor of the Building
+
 Reward: -1.0 => For all other Intermidiate States
 
 ## Graphical Representation:
